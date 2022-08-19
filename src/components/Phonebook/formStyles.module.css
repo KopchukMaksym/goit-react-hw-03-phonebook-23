@@ -1,0 +1,68 @@
+body {
+  padding: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  height: 140px;
+  padding: 20px;
+  border: 2px solid #28323d;
+}
+
+.btnSubmit,
+.btnDelete {
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid #28323d;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.btnSubmit:hover,
+.btnDelete:hover,
+.btnSubmit:focus,
+.btnDelete:focus {
+  background-color: #c3c3c3;
+  outline: 1px solid rgb(108, 91, 218);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 200px;
+}
+
+.labelFilter {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.inputFilter {
+  margin-top: 7px;
+  border: none;
+  border-radius: 3px;
+  outline: 4px solid #91c0fa;
+}
+.list {
+  margin: 0;
+  padding: 15px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textItem {
+  margin-right: 10px;
+}
+.btnDelete {
+  width: 50px;
+}
